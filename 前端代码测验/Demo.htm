@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link type="text/css" rel="styleSheet" href="css/mystyle.css">
+    <script src="./js/echarts.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+     <!-- 头部logo，登录 -->
+    <div class="header">
+        <div class="header_container">
+            <div class="header_logo">
+                logo
+            </div>
+            <div class="financial_bell" ><img src="images/financial_bell.png" ></div>
+            <div class="manage" ><img src="images/manage.png" ></div>
+            <div class="header_login">
+                Login
+            </div>
+        </div>
+    </div>
+    
+    <!-- 导航条 -->
+    <div class="nav">
+        <div class="nav_title">
+            <p>Audience Overview</p>
+            <p>Roseville CA</p>
+        </div>
+        <div class="nav_list">
+            <ul>
+                <li class="active">DASHBOARD</li>
+                <li>PROJECTS</li>
+                <li>CALENDAR</li> 
+                <li>MAILBOX</li>
+                <li>SETTINGS</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 轮播图，列表 -->
+    <div class="swiper_list">
+    <div class="swiper">
+        <div class="wrap">
+            <ul class="list02">
+                <li class="item active" >0</li>
+                <li class="item">1</li>
+                <li class="item">2</li>
+                <li class="item">3</li>
+                <li class="item">4</li>
+            </ul>
+            <ul class="pointList">
+                <li class="point active" data-index="0"></li>
+                <li class="point" data-index="1"></li>
+                <li class="point" data-index="2"></li>
+                <li class="point" data-index="3"></li>
+                <li class="point" data-index="4"></li>
+            </ul>
+            <button type="button" class="btn" id="goPre"><</button>
+            <button type="button" class="btn" id="goNext">></button>
+        </div>
+    
+        </div>
+        <div class="list">
+            <div class="list_container" >
+                <div class="list_title">
+                    <p>
+                        Support Requerts
+                    </p>
+                    <p id="logo_view">
+                        view All
+                    </p>
+                </div>
+                <hr />
+                <ul class="list_content">
+                    <li>
+                        <p>TIME</p>
+                        <p>USER NAME</p>
+                        <p>STATUS</p>
+                    </li>
+                    <li>
+                        <p>9:45pm</p>
+                        <p>760415750@qq.com</p>
+                        <p>
+                            <span>
+                                solved
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>9:45pm</p>
+                        <p>760415750@qq.com</p>
+                        <p>
+                            <span>
+                            solved
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 线状图 -->
+    <div class="linePic">
+        <div id="line">
+            
+        </div>
+    </div>
+
+    <!-- 饼状图，矩形图 -->
+    <div class="cakePic">
+        <div id="cake"></div>
+        <div id="rectangle"></div>
+    </div>
+
+     <!-- 尾部-->
+     <div class="pagebottom">
+         <div class="page_container">
+             <div class="pglogo">Logo</div>
+             <div class="tblist">
+                 <table  class="pgfont">
+                     <tr>
+                         <td>NEWS</td>
+                         <td>SPORT</td>
+                         <td>WEATHER</td>
+                         <td>FUTURE</td>
+                         <td>TRAVEL</td>
+                     </tr>
+                     <tr>
+                        <td>CHANNELS</td>
+                        <td>CULTURE</td>
+                        <td>AUTOS</td>
+                        <td>FOOD</td>
+                        <td>RADIO</td>
+                    </tr>
+                    <tr>
+                        <td>OVERVIEW</td>
+                        <td>NATURE</td>
+                        <td>LOCAL</td>
+                        <td>EARTH</td>
+                    </tr>
+                    <tr>
+                        <td>TIMELINE</td>
+                        <td>MUSIC</td>
+                        <td>SHOP</td>
+                        <td>TV</td>
+                    </tr>
+                 
+                 </table>
+             
+         </div>
+        </div>
+     </div>
+</body>
+</html>
